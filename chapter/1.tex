@@ -1,0 +1,84 @@
+\section{排列 组合问题(先不要看这部分)}
+
+\textbf{为了便于了解图的存储结构,这两个题目用的是邻接表来解决的，所以这部分可以放到稍后再看。}
+
+\subsection{P1706 全排列问题}
+\begin{lstlisting}[language=c++]
+#include<bits/stdc++.h>
+using namespace std;
+constexpr int N = 11;
+vector<int> e[N];
+int n;
+int path[N];
+bool used[N];
+
+void dfs(const int &u, const int &depth) {
+	if (depth == n) {
+		for (int i = 0; i < n; i++) {
+			cout << setw(5) << path[i];
+		}
+		cout << endl;
+		return;
+	}
+	for (const auto &v: e[u]) {
+		if (used[v]) {
+			continue;
+		}
+		used[v] = true;
+		path[depth] = v;
+		dfs(v, depth + 1);
+		used[v] = false;
+	}
+}
+
+int main() {
+	cin >> n;
+	for (int i = 0; i <= n; i++) {
+		for (int v = 1; v <= n; v++) {
+			e[i].emplace_back(v);
+		}
+	}
+	dfs(0, 0);
+	return 0;
+}
+\end{lstlisting}
+
+\subsection{P1157 组合的输出}
+\begin{lstlisting}[language=c++]
+#include <bits/stdc++.h>
+using namespace std;
+
+constexpr int N = 21;
+vector<int> e[N];
+int n, r;
+int path[N];
+
+void dfs(const int &u, const int &depth) {
+	if (depth == r) {
+		for (int i = 0; i < r; i++) {
+			cout << setw(3) << path[i];
+		}
+		cout << '\n';
+		return;
+	}
+	
+	for (const auto &v: e[u]) {
+		path[depth] = v;
+		//cout << "u:" << u << " v:" << v << '\n'; //递归过程
+		dfs(v, depth + 1);
+	}
+}
+
+int main() {
+	cin >> n >> r;
+	for (int i = 0; i <= n; i++) {
+		for (int v = i + 1; v <= n; v++) {
+			e[i].push_back(v);
+		}
+	}
+	
+	dfs(0, 0);
+	return 0;
+}
+
+\end{lstlisting}
