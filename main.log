@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex 2026.1.4)  19 APR 2026 22:28
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex 2026.1.4)  19 APR 2026 22:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1673,13 +1673,20 @@ File: ueuex.fd 2013/01/14 v3.01 Euler extra symbols
 LaTeX2e <2025-11-01>
 L3 programming layer <2022/08/05>
  ***********
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C5D8C38DE16A8A2B1095712B31786664;76.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: C5D8C38DE16A8A2B1095712B31786664;76
+(rerunfilecheck)             After:  C1B3860C13759D8840EE900DAC91A1FB;80.
  ) 
 Here is how much of TeX's memory you used:
  34154 strings out of 402986
  676944 string characters out of 5455749
- 1203825 words of memory out of 5000000
+ 1203834 words of memory out of 5000000
  62342 multiletter control sequences out of 15000+600000
  633553 words of font info for 89 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
