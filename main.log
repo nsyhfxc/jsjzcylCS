@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex 2026.1.4)  19 APR 2026 09:50
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex 2026.1.4)  19 APR 2026 09:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1668,20 +1668,20 @@ File: ueuex.fd 2013/01/14 v3.01 Euler extra symbols
 
  [1
 
-]) (chapter/dawu.tex) [1] (main.aux)
+]) (chapter/jsjzcyl.tex) [1] (main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2022/08/05>
  ***********
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 8DBDC3313690AB766DC39DA1E91EEB06;1039.
+(rerunfilecheck)             Checksum: C5D8C38DE16A8A2B1095712B31786664;76.
  ) 
 Here is how much of TeX's memory you used:
- 34157 strings out of 402986
- 677004 string characters out of 5455749
- 1208815 words of memory out of 5000000
- 62344 multiletter control sequences out of 15000+600000
- 633561 words of font info for 90 fonts, out of 8000000 for 9000
+ 34154 strings out of 402986
+ 676944 string characters out of 5455749
+ 1203815 words of memory out of 5000000
+ 62342 multiletter control sequences out of 15000+600000
+ 633553 words of font info for 89 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,9n,111p,424b,350s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
